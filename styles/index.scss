@@ -138,3 +138,366 @@ body {
     }
   }
 }
+
+.crisis {
+  margin-top: 221px;
+
+  .crisis_inner {
+    display: flex;
+    justify-content: space-between;
+    
+
+    .crisis_left {
+      position: relative;
+      .greenbox{
+        width: 552px;
+        height: 635px;
+        background-color: $primary;
+        position: absolute;
+        top: 29px;
+        left: 30px;
+      }
+
+      .img_1 {
+        width: 552px;
+        height: 635px;
+        position: relative;
+
+      }
+
+    }
+
+    .crisis_right {
+
+      width: 641px;
+      margin-right: 95px;
+      margin-top: 30px;
+
+      &_wrapper {
+        .crisis_right_content {
+          .h1 {
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+
+          .right_text {
+            p.text {
+              font-family: Inter;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 22px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.recent_report {
+  height: 809px;
+  width: 100%;
+  border-radius: 0px;
+  background: #02250A;
+  margin-left: 66px;
+
+
+
+  .recent_h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-left: 40px;
+
+
+  }
+
+  .recent_inner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .rectangle11 {
+      .rectangel {
+
+        height: 11px;
+        width: 110px;
+        margin-top: -30px;
+        margin-right: -200px;
+        margin-bottom: 10px;
+        border-radius: 0px;
+        background: #FFFFFF;
+
+      }
+    }
+
+
+
+    .box_1 {
+
+      height: 424px;
+
+      width: 300px;
+      border-radius: 8px;
+      background: #F4F4F4;
+  
+
+
+
+
+
+
+      .card {
+        height: 207px;
+        width: 276px;
+        border-radius: 8px;
+
+        img.img {
+          display: flex;
+          margin-left: 12px;
+          margin-top: 12px;
+
+        }
+
+        .par {
+
+
+          .p1 {
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0em;
+            border-radius: nullpx;
+            color: #02250A;
+
+
+          }
+
+          .p2 {
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            color: #5E5E5E;
+            text-align: right;
+            margin-top: -35px;
+
+          }
+
+
+
+          .p3 {
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+            margin-left: 6px;
+          }
+
+          .p4 {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #02250A;
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .see {
+    text-align: center;
+    margin-top: 85px;
+
+
+    .butt {
+      background: #fff;
+      border-radius: 5px;
+
+      width: 259px;
+      height: 70px;
+
+      p {
+
+
+        font-family: Inter;
+        letter-spacing: 0em;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+    }
+
+  }
+}
+
+.image_section {
+
+  .image_wrapper {
+    margin-left: 130px;
+
+    p {
+      font-family: Inter;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 58px;
+      letter-spacing: 0em;
+      text-align: left;
+      width: 705px;
+
+    }
+
+    .delta_1 {
+      display: flex;
+
+      img {
+        margin-left: -5px;
+        
+      }
+    }
+
+    .delta_2 {
+      margin-top: -4px;
+      display: flex;
+
+      img {
+        margin-left: -5px;
+      }
+    }
+  }
+
+}
+
+.footer {
+  background-color: $primary;
+  height: 92px;
+  border-radius: 0px;
+  margin-top: 152px;
+  color: #FFFFFF;
+  
+
+  .end {
+    padding-top: 20px;
+    p {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: center;
+      
+     span {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: center;
+      }
+    }
+  }
+}
+
+.recent-report{
+  width: 1430px;
+  height: 809px;
+  background-color: $primary;
+  margin-block: 115px;
+  margin-inline: 40px;
+  .btn-white{
+    background-color: white;
+    color: #000;
+    margin-top: 85px;
+    margin-left: 43%;
+  }
+  h2{
+    width: 400px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .white-block{
+    width: 110px;
+    height: 11px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .full{
+    display: flex;
+  }
+  .full-cards{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 424px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    .card{
+      padding: 10px;
+      position: relative;
+
+      img{
+        width: 276px;
+        height: 207px;
+      }
+      .ogoni-p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.78px;
+        width: 174px;
+        height: 22px;
+        margin-right: 10px;
+      }
+      .date{
+        width: 73px;
+        height: 17px;
+        font-size: 14px;
+        margin-left: 10px;
+        color: #5e5e5e;
+      }
+
+      p{
+        font-size: 14px;
+        line-height: 18.15px;
+        font-weight: 400;
+        width: 274px;
+        height: 86px;
+      }
+
+      .o_lga{
+        width: 81px;
+        height: 19px;
+        font-weight: 500;
+        margin-top: 20px;
+      }
+    }
+  }
+}

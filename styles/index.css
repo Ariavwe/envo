@@ -48,16 +48,26 @@ body {
 }
 
 .hero header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   width: 50%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav .logo {
@@ -70,9 +80,12 @@ body {
 
 .hero header .nav-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero header .nav-list .nav-item {
@@ -92,14 +105,22 @@ body {
 }
 
 .hero .banner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 700px;
 }
 
 .hero .banner_inner .left {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .left_wrapper {
@@ -126,9 +147,15 @@ body {
 
 .hero .banner_inner .right {
   background: #02250A;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .right_wrapper {
@@ -153,3 +180,339 @@ body {
   bottom: 0;
   right: 134px;
 }
+
+.crisis {
+  margin-top: 221px;
+}
+
+.crisis .crisis_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.crisis .crisis_inner .crisis_left {
+  position: relative;
+}
+
+.crisis .crisis_inner .crisis_left .greenbox {
+  width: 552px;
+  height: 635px;
+  background-color: #02250A;
+  position: absolute;
+  top: 29px;
+  left: 30px;
+}
+
+.crisis .crisis_inner .crisis_left .img_1 {
+  width: 552px;
+  height: 635px;
+  position: relative;
+}
+
+.crisis .crisis_inner .crisis_right {
+  width: 641px;
+  margin-right: 95px;
+  margin-top: 30px;
+}
+
+.crisis .crisis_inner .crisis_right_wrapper .crisis_right_content .h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.crisis .crisis_inner .crisis_right_wrapper .crisis_right_content .right_text p.text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.recent_report {
+  height: 809px;
+  width: 100%;
+  border-radius: 0px;
+  background: #02250A;
+  margin-left: 66px;
+}
+
+.recent_report .recent_h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.recent_report .recent_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.recent_report .recent_inner .rectangle11 .rectangel {
+  height: 11px;
+  width: 110px;
+  margin-top: -30px;
+  margin-right: -200px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  background: #FFFFFF;
+}
+
+.recent_report .recent_inner .box_1 {
+  height: 424px;
+  width: 300px;
+  border-radius: 8px;
+  background: #F4F4F4;
+}
+
+.recent_report .recent_inner .box_1 .card {
+  height: 207px;
+  width: 276px;
+  border-radius: 8px;
+}
+
+.recent_report .recent_inner .box_1 .card img.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.recent_report .recent_inner .box_1 .card .par .p1 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  border-radius: nullpx;
+  color: #02250A;
+}
+
+.recent_report .recent_inner .box_1 .card .par .p2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #5E5E5E;
+  text-align: right;
+  margin-top: -35px;
+}
+
+.recent_report .recent_inner .box_1 .card .par .p3 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-left: 6px;
+}
+
+.recent_report .recent_inner .box_1 .card .par .p4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #02250A;
+}
+
+.recent_report .see {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.recent_report .see .butt {
+  background: #fff;
+  border-radius: 5px;
+  width: 259px;
+  height: 70px;
+}
+
+.recent_report .see .butt p {
+  font-family: Inter;
+  letter-spacing: 0em;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.image_section .image_wrapper {
+  margin-left: 130px;
+}
+
+.image_section .image_wrapper p {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 705px;
+}
+
+.image_section .image_wrapper .delta_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image_section .image_wrapper .delta_1 img {
+  margin-left: -5px;
+}
+
+.image_section .image_wrapper .delta_2 {
+  margin-top: -4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image_section .image_wrapper .delta_2 img {
+  margin-left: -5px;
+}
+
+.footer {
+  background-color: #02250A;
+  height: 92px;
+  border-radius: 0px;
+  margin-top: 152px;
+  color: #FFFFFF;
+}
+
+.footer .end {
+  padding-top: 20px;
+}
+
+.footer .end p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer .end p span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.recent-report {
+  width: 1430px;
+  height: 809px;
+  background-color: #02250A;
+  margin-block: 115px;
+  margin-inline: 40px;
+}
+
+.recent-report .btn-white {
+  background-color: white;
+  color: #000;
+  margin-top: 85px;
+  margin-left: 43%;
+}
+
+.recent-report h2 {
+  width: 400px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.recent-report .white-block {
+  width: 110px;
+  height: 11px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.recent-report .full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recent-report .full-cards {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 300px;
+  height: 424px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.recent-report .full-cards .card {
+  padding: 10px;
+  position: relative;
+}
+
+.recent-report .full-cards .card img {
+  width: 276px;
+  height: 207px;
+}
+
+.recent-report .full-cards .card .ogoni-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  width: 174px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.recent-report .full-cards .card .date {
+  width: 73px;
+  height: 17px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #5e5e5e;
+}
+
+.recent-report .full-cards .card p {
+  font-size: 14px;
+  line-height: 18.15px;
+  font-weight: 400;
+  width: 274px;
+  height: 86px;
+}
+
+.recent-report .full-cards .card .o_lga {
+  width: 81px;
+  height: 19px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.css.map */
